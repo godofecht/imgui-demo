@@ -1,0 +1,11 @@
+ui {
+    win "My Demo" {
+        size: [400, 300]
+        background: [0.2, 0.2, 0.2]
+        resizable: false
+        movable: false
+        
+        txt "Count: {count}" @ center(y:100)
+        btn "+" @ below(20) >> count++
+    }
+}

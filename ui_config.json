@@ -1,0 +1,31 @@
+{
+    "window": {
+        "title": "ImGui Demo",
+        "size": [400, 300],
+        "flags": ["no_resize", "no_move", "no_collapse", "no_titlebar"],
+        "background_color": [0.2, 0.2, 0.2],
+        "elements": [
+            {
+                "type": "text",
+                "id": "counter_text",
+                "text": "Counter: {counter}",
+                "font_scale": 1.5,
+                "position": {
+                    "y": 100,
+                    "x_align": "center"
+                }
+            },
+            {
+                "type": "button",
+                "id": "increment_btn",
+                "text": "Increment",
+                "size": [120, 40],
+                "position": {
+                    "y_offset": 20,
+                    "x_align": "center"
+                },
+                "on_click": "increment_counter"
+            }
+        ]
+    }
+} 
